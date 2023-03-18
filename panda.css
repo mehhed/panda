@@ -1,0 +1,123 @@
+.full{
+    padding: 0px 10%;
+}
+.menu{
+    border-radius: 10px
+}
+        /* transform in logo  */
+.ofh{
+    overflow: hidden;
+}
+.container-fluid img:hover{
+    transform: rotate(360deg);
+    transition: .9s;
+}
+.item{
+    margin-bottom: 40px;
+    background-color: #feeae9;  
+    border-radius: 10px; 
+}
+.banner{
+    padding: 42px;
+    margin-top: 50px;
+}
+.slid-img img{
+    width: 100%;
+}
+ /* before hover effect in button  */
+.btn{
+    position: relative;
+    z-index: 1;
+}
+.btn::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: #0388f5;
+    transition:all .4s ;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 100%;
+}
+    /* before hover effect in button  end*/
+
+.cat-1{
+   background-image: linear-gradient(150deg, #7f6a41, #ffaa00);
+   border-radius: 20px;
+}
+.cat-2{
+    background-image: linear-gradient(150deg,#aa68aae3, #ea0fea);
+    border-radius: 20px;
+
+}
+.cat-3{
+    background-image: linear-gradient(150deg, #3500f8, #4a388a);
+    border-radius: 20px;
+    
+}
+.cat h1{
+    width: 50%;
+    text-align: center;
+}
+.cat{
+    padding: 20px 10px;
+    transition: .4s ease-in-out;
+}
+         /* transform rffect  */
+.cat:hover{
+    transform: scale(0.9);
+}
+.shoes{
+    margin: 20px 0px;
+}
+.card{
+    border: none;
+    box-shadow: 0px 0px 20px lightgrey;
+    transition: all .4s;
+}
+.card:hover{
+    transform: scale(0.99);
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all .4s;
+
+}
+.card-footer{
+    background-color: #fff;
+    border-top: none;
+}
+.subscribe{
+    background-color: #feeae9;  
+    margin: 20px 0px ;
+    height: 210px;
+    overflow: hidden;
+}
+   /* hover effect  */
+#subscribe-effect:hover{
+    transform: rotate(360deg);
+    transition: all .6s;
+}
+.massenger{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(12, 12, 240);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    position: fixed;
+    }
+    .massenger i{
+        font-size: xx-large;
+    }
+    .massenger a{
+        color: white;
+    }
